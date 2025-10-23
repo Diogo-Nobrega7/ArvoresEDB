@@ -15,6 +15,7 @@ Como é um script Python, não há necessidade de compilação.
 
 ```bash
 py arvores.py
+```
 
 ## Operações Disponíveis
 
