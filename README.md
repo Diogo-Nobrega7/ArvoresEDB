@@ -36,3 +36,74 @@ Após escolher um tipo de árvore, você terá acesso às seguintes operações:
 3.  **Buscar elemento**: Verifica se um valor existe na árvore.
 4.  **Imprimir árvore**: Exibe a estrutura da árvore em **pré-ordem**.
 5.  **Voltar ao menu principal**: Retorna à tela de seleção de tipo de árvore.
+
+## Exemplo de Uso (Entrada e Saída)
+
+```bash
+===== MENU PRINCIPAL =====
+Qual tipo de árvore deseja criar/usar?
+1. Árvore AVL
+2. Árvore Rubro-Negra
+3. Sair
+Escolha uma opção: 1
+
+Criando uma nova Árvore AVL...
+
+--- Operações ---
+1. Inserir elemento
+2. Remover elemento
+3. Buscar elemento
+4. Imprimir árvore
+5. Voltar ao menu principal
+Escolha uma operação: 1
+Digite o valor para inserir: 10
+Elemento 10 inserido na AVL.
+
+--- Operações ---
+1. Inserir elemento
+2. Remover elemento
+3. Buscar elemento
+4. Imprimir árvore
+5. Voltar ao menu principal
+Escolha uma operação: 1
+Digite o valor para inserir: 20
+Elemento 20 inserido na AVL.
+
+--- Operações ---
+1. Inserir elemento
+2. Remover elemento
+3. Buscar elemento
+4. Imprimir árvore
+5. Voltar ao menu principal
+Escolha uma operação: 1
+Digite o valor para inserir: 30
+Elemento 30 inserido na AVL.
+
+--- Operações ---
+1. Inserir elemento
+2. Remover elemento
+3. Buscar elemento
+4. Imprimir árvore
+5. Voltar ao menu principal
+Escolha uma operação: 4
+--- Árvore AVL (Impressão Pré-Ordem) ---
+20 (H:2, B:0) | 10 (H:1, B:0) | 30 (H:1, B:0) | 
+----------------------------------------
+
+--- Operações ---
+1. Inserir elemento
+2. Remover elemento
+3. Buscar elemento
+4. Imprimir árvore
+5. Voltar ao menu principal
+Escolha uma operação: 5
+Voltando ao menu principal...
+
+===== MENU PRINCIPAL =====
+Qual tipo de árvore deseja criar/usar?
+1. Árvore AVL
+2. Árvore Rubro-Negra
+3. Sair
+Escolha uma opção: 3
+Encerrando o programa...
+```
